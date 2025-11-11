@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Terima Kasih</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="bubbles">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<!-- Tampilan Awal -->
+<div id="intro">
+    <div class="intro-box">
+        <h1 class="intro-title">Terima Kasih</h1>
+
+        <p class="intro-text">
+            Terima kasih sudah hadir di bagian kecil dari perjalanan hidup kami.  
+            Semoga setiap pertemuan menjadi pelajaran,  
+            dan setiap kenangan menjadi kekuatan.
+        </p>
+
+        <button id="mulaiBtn">Lihat Isi</button>
+    </div>
+
+    <div class="text-bubbles"></div> 
+</div>
+
+
+
+<!-- Konten Utama -->
+<!-- Konten Utama -->
+<div id="content" class="hidden">
+
+    <audio id="music" src="Hindia - everything u are.mp3" loop></audio>
+
+    <h2 class="judul">Terima Kasih!</h2>
+    <p class="pesan">
+        Terima kasih atas waktu, tenaga, perhatian, dan kebersamaan yang telah diberikan.
+        Semoga segala kebaikan kembali kembali berlipat kepada kita semua.
+    </p>
+
+    <!-- SLIDER FOTO -->
+    <div class="slider">
+        <div class="slides">
+            <img src="are.jpg" class="slide">
+            <img src="w.jpeg" class="slide">
+            <img src="we.jpeg" class="slide">
+            <img src="all.jpeg" class="slide">    
+        </div>
+
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <button id="lihatVideoBtn" class="nextBtn">Lanjut ke Video</button>
+
+    <video class="video hiddenVideo" controls>
+        <source src="hi.mp4" type="video/mp4">
+    </video>
+
+</div>
+
+
+
+<script src="confetti.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
